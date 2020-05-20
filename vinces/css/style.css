@@ -1,0 +1,388 @@
+header{
+	background: linear-gradient(45deg, #1e2541, #3b4b7e);
+	padding-bottom: 110px;
+}
+header .top{
+	padding: 0 0 25px 0;
+}
+header .logo{
+	margin: 20px 0 0 0;
+}
+.phone p{
+	background: url(../images/phone.jpg) no-repeat 0px;
+	color: #b1c9f5;
+	padding-left: 30px;
+	margin: 30px 0 0 0;
+	font-size: 14px;
+	margin-left: 60px;
+}
+.phone p span{
+	margin-left: 15px;
+}
+.funct-icons ul{
+	list-style: none;
+	margin: 27px 0 0 0;
+	padding: 0;
+}
+.funct-icons ul li{
+	float: left;
+	margin-left: 55px;
+}
+.funct-icons ul li:first-child{
+	margin: 0;
+}
+a.specealist{
+	border: 1px solid #2b8bc5;
+	color: #c6cce4;
+	font-size: 12px;
+	float: right;
+	padding: 10px 15px 10px 15px;
+	margin-top: 20px;
+}
+a.specealist:hover{
+	transition: 0.5s;
+	background: #2b8bc5;
+	color: #c6cce4;
+	text-decoration: none;
+}
+.menu{
+	padding-bottom: 20px;
+}
+.bottom nav ul{
+	padding: 0;
+	margin: 0;
+}
+.bottom nav ul li{
+	list-style: none;
+	float: left;
+	margin-left: 32px
+}
+.bottom nav ul li:first-child{
+	margin: 0;
+}
+.bottom nav ul li a{
+	color: #dde9f7;
+	font-size: 16px;
+    padding: 0 5px;
+}
+.bottom nav ul li a:focus{
+	border-top: 2px solid #fff;
+    padding-top: 16px;
+    color: #fff;
+}
+header hr{
+	background: #4d6b9d;
+}
+.save-system h1, .save-system p, .save-system a{
+	color: #fff;
+}
+.save-system h1{
+	font-size: 50px;
+	margin: 70px 0 0 0;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+.save-system p{
+	margin: 15px 0 0 0;
+}
+.save-system a{
+	background: #0082fe;
+	margin: 15px 0 0 0;
+	display: inline-block;
+	border-radius: 30px;
+	padding: 14px 24px
+}
+.save-system a:hover{
+	transition: 0.5s;
+	background: #fff;
+	color: #0082fe;
+	text-decoration: none;
+}
+.products{
+	background: #fff;
+	border-radius: 20px;
+	padding: 80px 0 90px 0;
+	position: absolute;
+	top: -135px;
+}
+.products .col{
+	text-align: center;
+}
+.products p.name-item{
+	font-weight: 700;
+	margin: 15px 0 0 0;
+}
+.products .number-item{
+	color: #b9b9b9;
+}
+.img-product{
+	min-height: 64px;
+}
+.number-item{
+	margin: 15px 0 0 0;
+}
+.products .second-line{
+	margin: 70px 0 0 0;
+}
+.links{
+	margin-top: 50px;
+}
+.links a{
+	margin-top: 15px;
+	text-decoration: underline;
+	display: inline-block;
+}
+.links a:first-child{
+	margin-top: 0;
+}
+.first-block a{
+	margin-left: 50px;
+}
+.big-button a{
+	background: #0081ff;
+	display: inline-block;
+	color: #fff;
+	float: right;
+	border-radius: 50px 0 0 50px;
+	padding: 35px 180px 35px 145px;
+	text-decoration: none;
+	border: 1px solid transparent;
+}
+.big-button a:hover{
+	background: #fff;
+	color: #0081ff;
+	border: 1px solid #0081ff;
+	transition: 1s;
+}
+main{
+	background: #f1f5f8;
+}
+.posit-block{
+	position: relative;
+}
+.popular-block{
+	padding-top: 610px;
+}
+.products-camera{
+	padding-bottom: 80px;
+}
+.products-camera h2{
+	font-weight: 300;
+	color: #3f4346;
+	display: inline-block;
+}
+.products-camera hr{
+	width: 90px;
+	float: left;
+	border-top: 4px solid #f97c06; 
+    margin-bottom: 30px;
+}
+.products-camera a{
+	font-size: 14px;
+    margin-left: 20px;
+}
+.item-block{
+	background: #fff;
+	border-radius: 20px;
+}
+.item-block img{
+	max-width: 100%
+}
+.item-block h3{
+    text-align: center;
+    font-size: 16px;
+    padding: 0 30px;
+    margin: 10px 0 0 0;
+}
+.item-block p{
+    text-align: center;
+    font-size: 14px;
+    color: #b7b7b7;	
+    margin: 10px 0 0 0;
+}
+.cost{
+	overflow: hidden;
+}
+.cost p{
+	display: inline-block;
+	font-size: 11px;
+}
+.item-block .cost p.left{
+	float: left;
+	margin-top: 25px;
+}
+.item-block .cost p.right{
+	float: right;
+}
+.item-block .cost{
+    padding: 0 40px;
+}
+.item-block .cost p span{
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+}
+.item-block .buy{
+    padding: 0 40px 30px 40px;
+    margin: 20px 0 0px 0;
+    overflow: hidden;
+}
+.item-block .buy .text-warning{
+	display: inline-block;
+}
+.item-block .buy a{
+    float: right;
+    background: #0084fd;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 25px 9px 25px;
+    font-size: 13px;
+}
+.item-block .buy .fa-star:before{
+    font-size: 13px;
+}
+.item-block:hover{
+	background: #0081ff;
+	transition: 1s;
+}
+.item-block:hover > .buy a{
+	background: #fff;
+	color: #0081ff;
+	transition: 1s;
+}
+.item-block:hover > h3{
+	color: #fff;
+	transition: 1s;
+}
+.item-block:hover > p{
+	color: #fff;
+	transition: 1s;
+}
+.item-block:hover > .cost p{
+	color: #fff;
+	transition: 1s;
+}
+.item-block:hover > .cost p span{
+	color: #fff;
+	transition: 1s;
+}
+.news{
+	background: #fff;
+	padding-bottom: 50px;
+}
+.news img{
+	max-width: 100%;
+}
+.news a{
+	text-decoration: underline;
+	margin: 30px 0 25px 0;
+	display: inline-block;
+    font-weight: 500;
+}
+.news h4{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 30px 0 25px 0;
+}
+.news p{
+	color: #bfbfbf;
+	font-size: 13px;
+}
+.news p.date{
+	font-size: 11px;
+}
+.equipment{
+	padding: 100px 0 120px 0;
+}
+.equipment img{
+	display: block;
+    margin: 0 auto;
+}
+.equipment h4{
+	color: #33373a;
+	font-weight: 300;
+	font-size: 35px;
+}
+.equipment p{
+	color: #33373a;
+	font-size: 14px;
+    padding-right: 110px;
+    margin: 20px 0 0 0;
+}
+.footer-background{
+	background: url(../images/man-camera.png)no-repeat;
+    background-position: right;
+    background-size: contain;
+    padding: 0!important;
+}
+.violet-fon{
+	background: #505670e0;
+}
+.info-block{
+	padding: 185px 0 200px 0;
+}
+.info-block p{
+	color: #fff;
+}
+.info-block p.number{
+	background: url(../images/big-phone.jpg) no-repeat 0;
+	padding-left: 40px;
+    font-size: 18px;
+    margin: 0;
+}
+.info-block p.adress{
+	font-size: 18px;
+	margin: 35px 0 0 0;
+}
+.info-block a{
+	border: 2px solid #308cbf;
+	color: #fff;
+	padding: 10px 25px 15px 25px;
+	font-size: 14px;
+    letter-spacing: 3px;
+    margin: 50px 0 0 0;
+    display: inline-block;
+}
+footer{
+	background: #f1f5f8;
+}
+.bt-footer{
+	padding: 35px 0;
+}
+.bt-footer p{
+	color: #aaaeb1;
+	margin: 0;
+}
+.bt-footer ul{
+	padding: 0;
+	float: right;
+	margin: 0;
+}
+.bt-footer ul li{
+	float: left;
+	list-style: none;
+	margin-left: 20px;
+}
+.bt-footer ul li:first-child{
+	margin: 0;
+}
+.bt-footer ul li.fb a{
+	background: url(../images/fb.jpg) no-repeat 0;
+	width: 10px;
+	height: 17px;
+	display: inline-block;
+}
+
+.bt-footer ul li.sk a{
+	background: url(../images/sk.jpg) no-repeat 0;
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+}
+
+.bt-footer ul li.vk a{
+	background: url(../images/vk.jpg) no-repeat 0;
+	width: 23px;
+	height: 15px;
+	display: inline-block;
+}
