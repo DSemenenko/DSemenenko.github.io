@@ -1,20 +1,42 @@
 header{
 	background: linear-gradient(45deg, #1e2541, #3b4b7e);
-	padding-bottom: 110px;
+	height: 100vh;
+}
+@media(max-width: 700px) {
+	header {
+		padding-bottom: 40px;
+	}
 }
 header .top{
 	padding: 0 0 25px 0;
 }
+@media(max-width: 700px) {
+	header .top {
+		padding: 0px!important
+	}
+}
+
 header .logo{
 	margin: 20px 0 0 0;
 }
 .phone p{
-	background: url(../images/phone.jpg) no-repeat 0px;
 	color: #b1c9f5;
-	padding-left: 30px;
 	margin: 30px 0 0 0;
 	font-size: 14px;
 	margin-left: 60px;
+}
+@media(max-width: 700px) {
+	.phone {
+		display: none
+	}
+	.funct-icons {
+		display: none
+	}
+}
+.phone p i {
+	font-size: 22px;
+    margin-right: 10px;
+    color: #7585b8;
 }
 .phone p span{
 	margin-left: 15px;
@@ -28,8 +50,14 @@ header .logo{
 	float: left;
 	margin-left: 55px;
 }
+.funct-icons ul li i {
+	color: #abb9de;
+}
 .funct-icons ul li:first-child{
 	margin: 0;
+}
+@media(max-width: 700px) {
+	.callback {display: none}
 }
 a.specealist{
 	border: 1px solid #2b8bc5;
@@ -47,6 +75,18 @@ a.specealist:hover{
 }
 .menu{
 	padding-bottom: 20px;
+}
+.burger button {
+	float: right;
+	margin: 20px 0 0 0;
+}
+@media(min-width: 700px) {
+	.burger button {
+		display: none
+	}
+}
+.burger i {
+	color: #fff
 }
 .bottom nav ul{
 	padding: 0;
@@ -82,6 +122,16 @@ header hr{
     font-weight: 300;
     letter-spacing: 5px;
 }
+@media(max-width: 700px) {
+	.save-system h1 {
+		font-size: 40px;
+		margin: 20px 0 0 0;
+		text-align: center;
+	}
+	.save-system {
+		text-align: center;
+	}
+}
 .save-system p{
 	margin: 15px 0 0 0;
 }
@@ -102,12 +152,18 @@ header hr{
 	background: #fff;
 	border-radius: 20px;
 	padding: 80px 0 90px 0;
-	position: absolute;
-	top: -135px;
+	-webkit-box-shadow: 0px 4px 2px -2px rgba(0,0,0,0.09);
+    box-shadow: 0px 4px 2px -2px rgba(0,0,0,0.09);
 }
 .products .col{
 	text-align: center;
 }
+/*.products .col:hover {
+	background: #0084ff
+}
+.products .col:hover p.name-item {
+	color: #fff
+}*/
 .products p.name-item{
 	font-weight: 700;
 	margin: 15px 0 0 0;
@@ -126,6 +182,11 @@ header hr{
 }
 .links{
 	margin-top: 50px;
+}
+@media(max-width: 700px) {
+	.links {
+		display: none!important;
+	}
 }
 .links a{
 	margin-top: 15px;
@@ -153,17 +214,17 @@ header hr{
 	color: #0081ff;
 	border: 1px solid #0081ff;
 	transition: 1s;
+	text-decoration: none
 }
 main{
 	background: #f1f5f8;
+	padding-top: 50px;
 }
-.posit-block{
-	position: relative;
-}
-.popular-block{
-	padding-top: 610px;
-}
+
 .products-camera{
+	padding-top: 80px;
+}
+.products-camera:last-child {
 	padding-bottom: 80px;
 }
 .products-camera h2{
@@ -177,28 +238,97 @@ main{
 	border-top: 4px solid #f97c06; 
     margin-bottom: 30px;
 }
+@media(max-width: 700px) {
+	.products-camera hr {
+		margin-bottom: 15px!important;
+		margin-top: 5px;
+	}
+}
 .products-camera a{
 	font-size: 14px;
     margin-left: 20px;
 }
+@media(max-width: 700px) {
+	.products {
+		display: none
+	}
+	.products-camera {
+		padding-top: 20px!important;
+	}
+	.products-camera h2 {
+		
+	}
+	.products-camera .col-6:nth-child(2n+1) {
+		padding-right: 7.5px;
+		margin-bottom: 15px;
+	}
+	.products-camera .col-6:nth-child(2n) {
+		padding-left: 7.5px;
+		margin-bottom: 15px;
+	}
+}
 .item-block{
 	background: #fff;
 	border-radius: 20px;
+	-webkit-box-shadow: 0px 4px 2px -2px rgba(0,0,0,0.09);
+    box-shadow: 0px 4px 2px -2px rgba(0,0,0,0.09);
+	height: 100%;
+}
+.item-block:hover {
+	-webkit-box-shadow: 0px 2px 15px 1px rgba(0,0,0,0.25); 
+	box-shadow: 0px 2px 15px 1px rgba(0,0,0,0.25);
 }
 .item-block img{
 	max-width: 100%
 }
+@media(max-width: 700px) {
+.item-block {
+	text-align: center
+}
+	.item-block img {
+		max-width: 90%
+	}
+}
 .item-block h3{
     text-align: center;
     font-size: 16px;
-    padding: 0 30px;
-    margin: 10px 0 0 0;
+    padding: 0 20px;
+    margin: 0px;
+	max-height: 38px;
+    overflow: hidden;
 }
 .item-block p{
     text-align: center;
     font-size: 14px;
     color: #b7b7b7;	
     margin: 10px 0 0 0;
+}
+@media(max-width: 700px) {
+	.item-block h3 {
+		padding: 0 0px;
+		max-height: 60px;
+		overflow: hidden;
+	}
+	.item-block p {
+		font-size: 12px;
+		line-height: 12px;
+		padding: 0 10px!important;
+		max-height: 60px;
+		overflow: hidden;
+	}
+	.item-block .cost {
+		padding: 0 0px!important;
+	}
+	.item-block .buy {
+		padding: 0 10px!important;
+	}
+	.item-block .cost p.left {
+		margin-top: 22px!important;
+		font-size: 9px;
+	}
+	.item-block .cost p.right {
+		font-size: 9px;
+	}
 }
 .cost{
 	overflow: hidden;
@@ -215,7 +345,7 @@ main{
 	float: right;
 }
 .item-block .cost{
-    padding: 0 40px;
+    padding: 0 20px;
 }
 .item-block .cost p span{
 	font-size: 14px;
@@ -223,7 +353,7 @@ main{
 	color: #000;
 }
 .item-block .buy{
-    padding: 0 40px 30px 40px;
+    padding: 0 20px 20px;
     margin: 20px 0 0px 0;
     overflow: hidden;
 }
@@ -237,6 +367,19 @@ main{
     border-radius: 20px;
     padding: 5px 25px 9px 25px;
     font-size: 13px;
+	text-decoration: none
+}
+@media(max-width: 700px) {
+	.item-block .buy {
+		margin: 10px 0 10px 0;
+	}
+	.item-block .buy .text-warning {
+		display: none
+	}
+	.item-block .buy a {
+		width: 100%;
+		text-align: center;
+	}
 }
 .item-block .buy .fa-star:before{
     font-size: 13px;
@@ -244,6 +387,7 @@ main{
 .item-block:hover{
 	background: #0081ff;
 	transition: 1s;
+	cursor: pointer
 }
 .item-block:hover > .buy a{
 	background: #fff;
@@ -257,18 +401,30 @@ main{
 .item-block:hover > p{
 	color: #fff;
 	transition: 1s;
+	opacity: 0.7;
 }
 .item-block:hover > .cost p{
 	color: #fff;
 	transition: 1s;
+	opacity: 0.7;
 }
 .item-block:hover > .cost p span{
 	color: #fff;
 	transition: 1s;
+	opacity: 1!important;
 }
 .news{
 	background: #fff;
 	padding-bottom: 50px;
+}
+@media(max-width: 700px) {
+	.news {
+		padding: 0px!important;
+		padding-bottom: 30px;
+	}
+	.news h4 {
+		margin: 10px 0 10px 0!important;
+	}
 }
 .news img{
 	max-width: 100%;
@@ -298,6 +454,16 @@ main{
 	display: block;
     margin: 0 auto;
 }
+@media(max-width: 700px) {
+	.equipment{
+		padding: 30px 0;
+		text-align: center;
+		display: none
+	}
+	.equipment img {
+		width: 100%;
+	}
+}
 .equipment h4{
 	color: #33373a;
 	font-weight: 300;
@@ -306,7 +472,6 @@ main{
 .equipment p{
 	color: #33373a;
 	font-size: 14px;
-    padding-right: 110px;
     margin: 20px 0 0 0;
 }
 .footer-background{
@@ -315,33 +480,64 @@ main{
     background-size: contain;
     padding: 0!important;
 }
+@media(max-width: 700px) {
+	.footer-background {
+		background-size: cover!important;
+	}
+}
 .violet-fon{
 	background: #505670e0;
 }
 .info-block{
 	padding: 185px 0 200px 0;
 }
+@media(max-width: 700px) {
+	.info-block{
+		padding: 30px 0;
+	}
+}
 .info-block p{
 	color: #fff;
 }
-.info-block p.number{
-	background: url(../images/big-phone.jpg) no-repeat 0;
+.info-block .number p {
 	padding-left: 40px;
     font-size: 18px;
     margin: 0;
+}
+.info-block .number i {
+	color: #7781b6;
+    font-size: 60px;
+    float: left;
+    margin-right: 10px;
 }
 .info-block p.adress{
 	font-size: 18px;
 	margin: 35px 0 0 0;
 }
+@media(max-width: 700px) {
+	.info-block p.adress{
+		font-size: 18px;
+		margin: 5px 0 0 0;
+	}
+	.info-block a {
+		margin: 15px 0 0 0!important;
+		width: 100%;
+		text-align: center;
+	}
+}
 .info-block a{
 	border: 2px solid #308cbf;
 	color: #fff;
-	padding: 10px 25px 15px 25px;
+	padding: 15px 25px 15px 25px;
 	font-size: 14px;
     letter-spacing: 3px;
     margin: 50px 0 0 0;
     display: inline-block;
+}
+.info-block a:hover {
+	color: #fff;
+	background: #308cbf;
+	text-decoration: none;
 }
 footer{
 	background: #f1f5f8;
@@ -357,6 +553,17 @@ footer{
 	padding: 0;
 	float: right;
 	margin: 0;
+}
+@media(max-width: 700px) {
+	.bt-footer p {
+		font-size: 12px;
+	}
+	.bt-footer ul {
+		float: right
+	}
+	.bt-footer {
+		padding: 15px 15px!important
+	}
 }
 .bt-footer ul li{
 	float: left;
@@ -385,4 +592,9 @@ footer{
 	width: 23px;
 	height: 15px;
 	display: inline-block;
+}
+@media(min-width:768px){
+	.collapse:not(.show){
+		display: block!important;
+	}
 }
