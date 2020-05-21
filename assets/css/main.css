@@ -1431,12 +1431,12 @@ header .user-image {
    18. footer wrapper style
 ========================================================================== */
 .footer-top h2 {
-	font-family: 'Playfair Display', serif;
-	font-weight: 700;
-	color: #f2c44c;
-	margin-bottom: 30px;
-	line-height: 1;
-	font-size: 53px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #f2c44c;
+    margin-bottom: 10px;
+    line-height: 1;
+    font-size: 23px;
 }
 
 /* ==========================================================================
