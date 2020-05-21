@@ -16,6 +16,9 @@
 h1{
     margin: 30px 0 10px 0!important;
 }
+.title-bg{
+	padding: 0!important;
+}
 @media(max-width: 1024px){
 	.card {
     	width: 18rem!important;
