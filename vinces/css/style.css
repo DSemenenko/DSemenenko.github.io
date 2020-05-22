@@ -596,4 +596,14 @@ footer{
 	.products {
 		display: none;
 	}
+	header{
+		height: auto;
+	}
+	.bottom nav ul li{
+		float: none;
+		margin: 0;
+	}
+	.bottom nav ul li a:focus{
+		border: none;
+	}
 }
