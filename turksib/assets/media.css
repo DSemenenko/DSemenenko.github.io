@@ -229,7 +229,9 @@
   footer .middle .left .logo {
     text-align: center;
   }
-  
+  main section.numbers .item .text span.desc {
+    font-size: 0.7em;
+  }  
 }
 
 
