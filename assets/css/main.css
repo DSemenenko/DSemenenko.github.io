@@ -1614,11 +1614,9 @@ body.popup-added .progress-wrap {
     transition: all 200ms;
 	transition-delay: .2s;
 }
-
 .progress-wrap svg path { 
 	fill: none; 
 }
-
 .progress-wrap svg.progress-circle path {
 	stroke: #ddd;
 	stroke-width: 4;
