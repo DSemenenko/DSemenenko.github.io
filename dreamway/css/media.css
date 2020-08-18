@@ -23,6 +23,9 @@
 	.banner .item{
 		background-size: cover;
 	}
+	.briends{
+		overflow: auto;
+	}
 	header .logo{
 		max-width: 100%;
 	}
@@ -169,8 +172,70 @@
 	.slider-acces .newslider{
 		display: none!important;
 	}
+	.title-trn{
+		padding: 0 40px;
+	}
+	.trands-ban p.card-text{
+		display: none;
+	}
+	.trands-ban .card-img-overlay{
+	    padding: 25px 20px 20px 20px;
+	    border: 1px solid #ccc;
+	    border-radius: 0;
+	    margin: 0;
+	    position: static;
+	}
+	.trands-article .article{
+		height: auto;
+		border: 0;
+	}
+	.trands-article .article img {
+	    width: 150px;
+	    float: left;
+	    margin-right: 20px;
+	}
+	.trands-article .content-art p {
+    	font-size: 16px;
+	}
+	.trands-article .content-art h5 {
+    	font-size: 18px;
+    }
+    .trands-article{
+    	margin: 0;
+    }	
+    .trands-ban{
+    	margin-bottom: 30px;
+    }
+    .trands-article .col-md-4{
+    	padding: 0;
+    	margin-bottom: 30px;
+    }
+    .trands-article .col-md-4:last-child{
+    	margin: 0;
+    }
+    .choose-categ{
+    	display: none;
+    }
+    .ft-top h6{
+    	font-size: 24px;
+    	padding-bottom: 0;
+    }
+    .ft-bottom .top-net .number{
+    	display: none;
+    }
+    .ft-top p{
+    	font-size: 16px;
+    }
+	.trands-article .content-art{
+		padding: 0;
+		position: unset;
+	}
 	.mob-slider{
 		display: block;
+	}
+	.trands-ban h5{
+		margin: 0;
+		line-height: 1;
 	}
 	.creare-design h3{
 		margin-top: 75px;
