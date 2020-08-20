@@ -329,12 +329,17 @@ grid-gap: 20px;
 	font-family: "Calibri-Bold";
 	font-size: 18px;
 	margin-bottom: 10px;
+	color: #000;
 }
 .popular .card-columns p{
 	font-family: "Calibri-Regular";
 	font-size: 15px;
 	line-height: 1;
 	margin-bottom: 5px;
+	color: #000;
+}
+.popular .card-columns a, .trands-article a{
+	text-decoration: none;
 }
 .popular .card-columns .card-body{
 	padding: 23px 5px 19px 5px ;
@@ -666,6 +671,7 @@ grid-gap: 20px;
 }
 .nav-bottom{
 	background: #212b35;
+    padding-bottom: 80px;
 }
 .nav-bottom ul{
 	padding: 0;
@@ -1935,4 +1941,7 @@ a.collapsible{
 }
 .nav-bottom a.collapsible.active:after{
 	transform: rotate(0deg);
+}
+.newslider .item a{
+	text-decoration: none;
 }

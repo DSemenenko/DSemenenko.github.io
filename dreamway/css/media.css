@@ -26,6 +26,9 @@
 	.collapsible{
 		display: none;
 	}
+	.mob-ft{
+		display: none;
+	}
 }
 @media (max-width: 1024px) {
 	.banner .item{
@@ -188,9 +191,6 @@
 	}
 	.popular .card-columns h5{
 		font-size: 16px;
-	}
-	.title-trn{
-		padding: 0 40px;
 	}
 	.nav-bottom {
     	padding-bottom: 20px;
@@ -371,6 +371,12 @@
 	.newslider .item p {
 	    font-size: 10px;
 	    margin: 10px 0 0 0;
+    }
+    .popular h3{
+    	font-size: 22px;
+    }
+    .creare-design h3{
+    	font-size: 20px;
     }
     .banner h2 {
     	font-size: 30px;
