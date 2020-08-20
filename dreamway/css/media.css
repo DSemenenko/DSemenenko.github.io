@@ -180,11 +180,23 @@
 	.slider-acces .newslider{
 		display: none!important;
 	}
+	.card-logo{
+		height: 80px;
+	}
+	.popular .card-columns p{
+		font-size: 12px;
+	}
+	.popular .card-columns h5{
+		font-size: 16px;
+	}
 	.title-trn{
 		padding: 0 40px;
 	}
+	.nav-bottom {
+    	padding-bottom: 20px;
+	}
 	.footer-logo {
-    	background-size: 70%;
+    	background-size: 90%;
 	}
 	.trands-ban p.card-text{
 		display: none;
@@ -329,6 +341,27 @@
     .banner h2 {
     	font-size: 30px;
 	}
+	.trands-article .content-art p {
+    	font-size: 14px;
+	}
+	.trands-article .content-art h5 {
+    	font-size: 15px;
+	}
+	.ft-top button {
+    	padding: 5px 10px 5px 10px;
+	}
+	.ft-top button:before{
+		display: none;
+	}
+	.ft-top{
+		padding-bottom: 20px;
+	}
+	.more-product button{
+		margin-top: 15px;
+	}
+	.ft-top input.form-mail::-webkit-input-placeholder {
+		font-size: 16px;
+	}
 }
 @media(max-width: 320px){
 	.mob-logo {
@@ -341,5 +374,27 @@
     }
     .banner h2 {
     	font-size: 30px;
+	}
+	.nav-bottom a.collapsible{
+		font-size: 22px;
+	}
+	.nav-bottom a.collapsible:after{
+		top: 30px;
+	}
+	.trands-article .content-art p{
+		font-size: 11px;
+	}
+	.trands-article .article img{
+		margin-right: 10px;
+	}
+	.ft-top input.form-mail::-webkit-input-placeholder {
+		font-size: 14px;
+	}
+	.ft-top input.form-mail{
+		width: 100%;
+	}
+	.ft-top button{
+		width: 100%;
+		margin: 10px 0 0 0;	
 	}
 }

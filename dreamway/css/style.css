@@ -470,6 +470,7 @@ grid-gap: 20px;
 	font-family: "Calibri-Bold";
 	transition: 0.5s;
 	outline: none;
+	font-size: 18px;
 }
 .more-product button:hover{
 	background: #000;
@@ -1847,7 +1848,7 @@ padding: 0 20 10px 0;
 
 
 
-.collapsible {
+/*.collapsible {
 	background: none;
 	color: white;
 	cursor: pointer;
@@ -1863,8 +1864,8 @@ padding: 0 20 10px 0;
 }.
 a.collapsible{
 	background: none;
-}
-}
+}*/
+
 /*.nav-bottom .content {
 	margin-top: 20px;
 	padding: 0 18px;
@@ -1890,3 +1891,43 @@ a.collapsible{
 	right: 0;
 	top: 30px;
 }*/
+
+.nav-bottom a.collapsible, .nav-bottom a.btn-primary:not(:disabled):not(.disabled).active:focus, .nav-bottom a.btn-primary:not(:disabled):not(.disabled):active:focus, .nav-bottom a.show>.btn-primary.dropdown-toggle:focus, .nav-bottom a.btn-primary:not(:disabled):not(.disabled).active{
+	background: none;
+	outline: none;
+	border: none;
+	box-shadow: none;
+	outline: none;
+}
+.nav-bottom a.collapsible{
+	display: block;
+	text-align: left;
+	font-family: 'Calibri-Regular';
+	font-size: 34px;
+	padding: 20px 0;
+	position: relative;
+}
+.nav-bottom a.collapsible:after{
+	content: '';
+	background: url(../images/arrow-downft.png) no-repeat;
+	position: absolute;
+	height: 16px;
+	width: 27px;
+	right: 20px;
+	top: 40px;
+}
+.mob-ft{
+	margin-top: 45px;
+    padding: 0 20px;
+}
+.mob-ft ul li a{
+	font-size: 16px;
+	color: #000;
+}
+.mob-ft p{
+	border-top: 2px solid #43515f;
+	margin: 0;
+}
+.mob-ft p:first-child{
+	border: none;
+}
