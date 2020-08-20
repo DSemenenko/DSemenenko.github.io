@@ -1907,15 +1907,6 @@ a.collapsible{
 	padding: 20px 0;
 	position: relative;
 }
-.nav-bottom a.collapsible:after{
-	content: '';
-	background: url(../images/arrow-downft.png) no-repeat;
-	position: absolute;
-	height: 16px;
-	width: 27px;
-	right: 20px;
-	top: 40px;
-}
 .mob-ft{
 	margin-top: 45px;
     padding: 0 20px;
@@ -1930,4 +1921,18 @@ a.collapsible{
 }
 .mob-ft p:first-child{
 	border: none;
+}
+.nav-bottom a.collapsible:after{
+	content: '';
+	background: url(../images/arrow-downft.png) no-repeat;
+	position: absolute;
+	height: 16px;
+	width: 27px;
+	right: 20px;
+	top: 40px;
+	transform: rotate(-90deg);
+	transition: 0.5s;
+}
+.nav-bottom a.collapsible.active:after{
+	transform: rotate(0deg);
 }
