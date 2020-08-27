@@ -1,0 +1,537 @@
+@font-face {
+ font-family: "Roboto";
+ src: url("../fonts/Roboto-Regular.ttf")
+}
+.container{
+	max-width: 1200px!important;
+}
+body{
+	background: #F9F9F9!important;
+}
+main{
+	margin-top: 30px;
+}
+.card img{
+	border-radius: 10px 10px 0 0;
+}
+.card-deck .card {
+	border-radius: 10px;
+	border: none;
+}
+.card-deck .card-body {
+    padding: 15px 15px 10px 15px;
+}
+.card-deck .card h3.card-title{
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 110%;
+	margin: 0 0 15px 0;
+}
+.card-deck .card p.desc{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 180%;
+    margin-bottom: 8px;
+}
+.card-deck{
+    grid-template-columns: auto auto auto;
+    display: grid!important;
+    grid-row-gap: 40px;
+}
+.card-deck .card p.location{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 180%;
+	padding-left: 24px; 
+	position: relative;
+    margin-bottom: 3px;
+}
+.card-deck .card p.location:before{
+	content: "";
+	position: absolute;
+	background: url(../images/metro.png) no-repeat;
+	width: 16px;
+	height: 12px;
+	left: 0;
+	top: 10px;
+}
+.card-deck .card p.location:after{
+	content: "";
+	position: absolute;
+	background: url(../images/person.png) no-repeat;
+	width: 10px;
+	height: 16px;
+	right: 42px;
+    top: 8px;
+}
+.card-deck .card .address{
+	color: #8F8F8F;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 180%;
+}
+.pink {
+	display: flex;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.pink p{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 190%;
+	color: #fff;
+	margin: 0;
+	margin-right: 10px;
+	padding: 1px 10px;
+	background: #F03B8C;
+	border-radius: 5px;
+}
+.show-more{
+	background: #fff;
+	margin-top: 25px;
+}
+.show-more p{
+	text-align: center;
+	padding: 28px 0 30px 0;
+}
+.show-more p a span{
+	display: block;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: #111;
+    line-height: 110%;
+    margin: 10px 0 0 0;
+}
+.metro a.btn{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 110%;
+	color: #111;
+    padding: 16px 0;
+    display: block;
+    text-align: left;
+    position: relative;
+}
+.metro a.btn:after{
+	content: "";
+	position: absolute;
+	background: url(../images/arrow.png) no-repeat;
+	width: 13px;
+	height: 8px;
+	right: 0;
+	top: 20px;
+	transition: 0.5s;
+	transform: rotate(180deg);
+}
+.metro a.btn[aria-expanded="false"]:after {
+	transform: rotate(0deg);
+}
+.metro a.btn-primary:hover,.metro a.btn-primary,  .metro a.btn-primary:not(:disabled):not(.disabled):active{
+	background: none;
+	border: none;
+	box-shadow: none;
+	color: #111;
+	outline: none;
+}
+.metro .card-body{
+	border: none;
+	background: none;
+	padding: 0;
+}
+.metro p{
+	margin-bottom: 9px;
+}
+.metro ul{
+	display: flex;
+	padding: 0;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.metro ul li{
+	list-style: none;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 110%;
+	text-align: center;
+	padding: 15px 10px;
+	background: #F03B8C;
+	border: 1px solid transparent;
+	transition: 0.5s;
+    width: 25%;
+}
+.metro ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+.metro ul li a:focus-within {
+	color: #AFAFAF;
+}
+.metro ul li:focus-within{
+	background: none;
+	border: 1px solid #ccc;
+	color: #AFAFAF;
+}
+.metro a.any{
+	display: block;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 180%;
+	color: #AFAFAF;
+	text-align: center;
+	border: 1px solid #E5E5E5;
+	box-sizing: border-box;
+	border-radius: 2px;
+	padding: 7px 0;
+}
+
+.form_radio input[type=radio] {
+	display: none;
+}
+.form_radio label {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	padding-left: 25px;
+	margin-right: 0;
+	user-select: none;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 180%;
+}
+.form_radio label:before {
+	content: "";
+	display: inline-block;
+	width: 17px;
+	height: 18px;
+	position: absolute;
+	left: 0;
+	bottom: 5px;
+	background: url(../images/radio.png) 0 0 no-repeat;
+	transition: 0.5s;
+}
+ 
+/* Checked */
+.form_radio input[type=radio]:checked + label:before {
+	background: url(../images/radio2.png) 0 0 no-repeat;
+}
+.form_radio input[type=radio]:checked + label {
+	color: #F03B8C;
+}
+/* Hover */
+.form_radio label:hover:before {
+	filter: brightness(120%);
+}
+ 
+/* Disabled */
+.form_radio input[type=radio]:disabled + label:before {
+	filter: grayscale(100%);
+}
+.metro .card-body{
+	margin-bottom: 30px;
+}
+.deadline .card-body{
+	margin-bottom: 20px;
+}
+
+
+
+
+
+.form_checkbox input[type=checkbox] {
+	display: none;
+}
+.form_checkbox label {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	padding-left: 25px;
+	margin-right: 0;
+	user-select: none;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 180%;
+	margin-bottom: 10px;
+}
+.form_checkbox label:before {
+	content: "";
+	display: inline-block;
+	width: 17px;
+	height: 18px;
+	position: absolute;
+	left: 0;
+	bottom: 5px;
+	background: url(../images/not-act.png) 0 0 no-repeat;
+	transition: 0.5s;
+}
+ 
+/* Checked */
+.form_checkbox input[type=checkbox]:checked + label:before {
+	background: url(../images/active.png) 0 0 no-repeat;
+}
+.form_checkbox input[type=checkbox]:checked + label {
+	color: #F03B8C;
+}
+/* Hover */
+.form_checkbox label:hover:before {
+	filter: brightness(120%);
+}
+ 
+/* Disabled */
+.form_checkbox input[type=checkbox]:disabled + label:before {
+	filter: grayscale(100%);
+}
+#more {display: none;}
+a.show{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 190%;
+	color: #F03B8C;
+}
+
+
+
+
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 40px;
+	height: 20px;
+	top: 3px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #F03B8C;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.toggle{
+	display: flex;
+	margin-bottom: 10px;
+}
+.toggle p{
+    margin-left: 8px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 180%;
+    position: relative;
+    bottom: 2px;
+}
+button.sub{
+	background: #F03B8C;
+	color: #fff;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 180%;
+	display: block;
+	outline: none;
+	border: 0;
+	width: 100%;
+	padding: 8px;
+	border: 1px solid transparent;
+	transition: 0.5s;
+	margin-bottom: 30px;
+}
+button.sub:hover{
+	background: none;
+	color: #F03B8C;
+	border-color: #F03B8C;
+}
+button.reset{
+	background: none;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 190%;
+	display: block;
+	outline: none;
+	border: 0;
+	color: #5F5F5F;
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #5F5F5F;
+	position: relative;
+}
+button.reset:after{
+	content: "";
+	background: url(../images/x.png) no-repeat;
+	position: absolute;
+	width: 9px;
+	height: 8px;
+    right: 40px;
+    top: 20px;
+}
+.extra{
+	margin-top: 40px!important;
+}
+@media(max-width: 1024px){
+    .metro ul li {
+    	padding: 15px 4px;
+    }
+    .form_checkbox label {
+    	font-size: 15px;	
+    }
+    button.reset:after {
+    	right: 20px;	
+	}
+	.card-deck{
+    	grid-template-columns: auto auto!important;
+	}
+	.card-deck .card p.location:after {
+    	right: 120px;
+    }	
+}
+@media(max-width: 768px){
+	.pink p {
+	    margin-right: 6px;
+	    padding: 1px 5px;
+	}
+	.card-deck .card-body {
+    	padding: 15px 10px;    
+    }	
+    .card-deck .card h3.card-title {
+    	font-size: 13px;
+    }	
+    .card-deck .card p.location:after {
+    	left: 190px;
+    }
+    .metro a.btn {
+    	font-size: 12px;
+    }
+    .metro ul li {
+    	font-size: 12px;	
+    }
+    .metro a.any {
+    	font-size: 14px;	
+    }
+    .metro .card-body {
+    	margin-bottom: 10px;
+    }	
+    .metro a.btn:after {
+    	top: 18px;
+    }
+    .form_radio label {
+    	font-size: 15px;
+    }
+    button.sub {
+    	font-size: 14px;	
+    }
+    button.reset {
+    	font-size: 14px;	
+    }
+    button.reset:after {
+    	right: 5px;	
+    }
+    button.sub{
+    	margin-bottom: 15px;
+    }	
+}
+@media(max-width: 425px){
+	.card-deck{
+    	grid-template-columns: auto!important;
+    	grid-row-gap: 20px;
+	}
+	.metro a.btn {
+    	font-size: 18px;
+    }
+    .metro a.btn:after {
+    	top: 20px;
+    }	
+    .form_checkbox label {
+    	font-size: 18px;
+	}
+	.form_radio label {
+    	font-size: 18px;
+	}
+	button.reset:after {
+    	right: 115px;
+	}
+	.metro ul li {
+    	font-size: 18px;
+	}
+	.metro a.any {
+    	font-size: 18px;
+	}
+}
+@media(max-width: 375px){
+	button.reset:after {
+    	right: 95px;
+	}
+}
+@media(max-width: 320px){
+	.card-deck .card p.location:after {
+    	right: 70px;
+	}
+}
