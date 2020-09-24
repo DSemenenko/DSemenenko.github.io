@@ -33,15 +33,17 @@ header .left a{
 	color: #393e70;
 	font-size: 16px;
 	margin-right: 35px;
+	font-family: "Ubuntu-Regular";
 }
 header .right ul{
 	display: flex;
 	padding: 0;
 	margin: 0;
+	float: right;
 }
 header .right ul li{
 	list-style: none;
-	margin-right: 20px;
+	margin-left: 20px;
 }
 header .right ul li:first-child{
 	margin-left: 0;
@@ -51,6 +53,7 @@ header .right ul li a{
 	text-decoration: none;
 	font-size: 14px;
 	transition: 0.5s;
+	font-family: "Ubuntu-Regular";
 }
 header .right ul li a:hover{
 	color: #31e1ce;	
@@ -168,7 +171,7 @@ header .right ul li a:hover{
     color: #3b4269;
 }
 .install-html ul li a{
-	font-family: "Ubuntu-Bold";
+	font-family: "Ubuntu-Regular";
 	font-size: 24px;
 	color: #0da088;
 	border-bottom: 3px solid #0da088;
@@ -219,10 +222,10 @@ header .right ul li a:hover{
     padding: 18px 0 17px 0;
     text-decoration: none;
     transition: 0.5s;
+	width: 260px;
 }
 .after-install .green{
 	background: #2cd3b8;
-	width: 260px;
 	margin-right: 20px;
 	border: 1px solid transparent;
 }
@@ -233,7 +236,6 @@ header .right ul li a:hover{
 }
 .after-install .violet{
 	background: #3b4269;
-	width: 260px;
 	border: 1px solid transparent;
 }
 .after-install .violet:hover{
@@ -251,6 +253,10 @@ header .right ul li a:hover{
 .feedback ul li{
 	list-style: none;
 	margin-bottom: 45px;
+	display: flex;
+}
+.feedback ul li:last-child{
+	margin: 0;
 }
 .feedback ul li img{
 	max-width: 40px;
@@ -262,6 +268,7 @@ header .right ul li a:hover{
 	font-family: "Ubuntu-Bold";
 	text-decoration: none;
 	border-bottom: 2px solid #0da088;	
+    display: inline-table;
 }
 .feedback p{
 	font-size: 18px;
@@ -319,4 +326,28 @@ p.timetable{
 .networks ul li{
 	list-style: none;
 	margin-right: 20px;
+}
+.mob-head button{
+	border: none;
+	padding: 0;
+	outline: none;
+	width: 30px;
+	position: relative;
+    bottom: 5px;
+}
+.mob-head button img{
+	max-width: 100%;
+}
+.mob-head .navbar-brand img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.feedback ul li p{
+	margin: 0;
+}
+.install-html ul li:last-child{
+	margin: 0;
 }
