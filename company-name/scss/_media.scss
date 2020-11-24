@@ -1,0 +1,70 @@
+@media (max-width: 1024px) {
+	header nav ul li{
+	    margin-right: 31px;
+	}
+	.login{
+		display: none;
+	}
+}
+@media (max-width: 768px) {
+	header nav ul li{
+		margin: 5px 0;
+		border-bottom: 1px solid #85B657;	
+	}
+	main .card-body {
+	    padding: 0 15px;
+    }
+    main .more .card {
+    	height: 370px;
+	}
+	.company-logo img{
+		max-width: 100%;
+	}
+	main {
+    	padding-bottom: 40px;
+	}
+}
+
+
+@media (max-width: 425px) {
+	header p {
+	    margin-top: 30px;
+	    padding: 0 10px;
+	}
+	main .more .card {
+	    height: 300px;
+	    margin-bottom: 15px;
+	}
+	.products .col-md-4{
+		margin-bottom: 15px;
+	}
+	.products .row:last-child{
+		margin-top: 0!important; 
+	}
+	main .company-logo ul li {
+    	margin: 0 10px;
+	}
+	main h2 {
+    	margin: 40px 0 30px 0;
+	}
+}
+@media (max-width: 375px) {
+	header img {
+	    margin: 0;
+	}
+	header h1 {
+	    font-size: 38px;
+	    margin-top: 70px;
+    }
+}
+@media (max-width: 320px) {
+	.navbar-brand{
+		max-width: 190px;
+	}
+	header img{
+		max-width: 100%;
+	}
+	header h1 {
+    	font-size: 28px;
+	}
+}

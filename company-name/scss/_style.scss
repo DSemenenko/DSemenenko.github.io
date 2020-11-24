@@ -29,6 +29,10 @@ header{
 	padding-top: 24px;
 	height: 500px;
     background-size: cover;
+	.navbar-toggler{
+		background: #fff;
+		outline: none;
+	}
     img{
     	margin-right: 61px;
     }
@@ -113,6 +117,9 @@ main{
 		}
 	}
 	.products{
+		.row:last-child{
+			margin-top: 45px;
+		}
 		.col-md-12 p{
 			color: #000;
 			margin-bottom: 55px;
@@ -178,6 +185,10 @@ footer{
 			width: 50px;
 			height: 50px;
 			border-radius: 100%;
+			transition: 0.5s;
+			&:hover{
+				background: #85B657;
+			}
 			a{
 			    width: 25px;
 				height: 25px;
@@ -188,6 +199,7 @@ footer{
 		}
 		.fb{
 			background: url('../images/fb.svg')center;
+			fill: red;
 		}
 		.tw{
 			background: url('../images/tw.svg')center;
