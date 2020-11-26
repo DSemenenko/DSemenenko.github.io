@@ -56,6 +56,12 @@
 	.banner {
     	padding: unset;
 	}
+	.banner img{
+		display: none;
+	}
+	.Banner_Land_cruiser img{
+		display: none;
+	}
 }
 @media (max-width: 425px) {
 	.right-hd{
