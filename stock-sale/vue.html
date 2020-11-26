@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<div id="app">
+		<v-app>
+			<v-navigation-drawer v-model="drawer" app>
+				<v-list dense>
+					<v-subheader>Menu</v-subheader>
+					<v-list-item-group>
+						<v-list-item>
+							<v-list-item-content>
+								<v-list-item-title>MISSION</v-list-item-title>
+							</v-list-item-content>
+						</v-list-item>
+						<v-list-item>
+							<v-list-item-content>
+								<v-list-item-title>CREATE COMPANY ACCOUNT</v-list-item-title>
+							</v-list-item-content>
+						</v-list-item>
+						<v-list-item>  
+							<v-list-item-content>
+								<v-list-item-title>CONTACTS</v-list-item-title>
+							</v-list-item-content>
+						</v-list-item>
+						<v-list-item>  
+							<v-list-item-content>
+								<v-list-item-title>English</v-list-item-title>
+							</v-list-item-content>
+						</v-list-item>
+					</v-list-item-group>
+				</v-list>
+			</v-navigation-drawer>
+			<nav>
+				<v-toolbar flat>
+					<v-app-bar flat app>
+						<v-container>
+							<v-row>
+								<v-col lg="3" md="4" sm="5" xs="8">
+									<v-app-bar-nav-icon @click="drawer = !drawer" class="drawer"></v-app-bar-nav-icon>
+									<h1 name="top" class="tatar-expo">TATAR EXPO</h1>
+								</v-col>
+								<v-col lg="7" offset-lg="2" md="4" offset-md="4" sm="4" xs="3" offset-sm="3" class="right-hd">
+									<a href="#"><img src="images/search.svg" class="search" alt=""></a>
+									<div class="mission">
+										<ul>
+											<li><a href="#">MISSION</a></li>
+											<li><a href="#">CREATE COMPANY ACCOUNT</a></li>
+											<li><a href="#">CONTACTS</a></li>
+											<li><a href="#">English</a></li>
+										</ul>
+									</div>
+									<a href="#"><img src="images/Icon_english.png" alt=""></a>
+									<a href="#" class="user"></a>
+									<a href="#" class="shopping-cart"></a>
+								</v-col>
+							</v-row>
+						</v-container>
+					</v-app-bar>
+				</v-toolbar>
+			</nav>
+			<v-main>
+				<v-container fluid class="banner">
+					<v-row>
+						<img src="images/Banner_Stock_sale@2x.png" alt="">
+					</v-row>
+				</v-container>
+				<v-container class="content">
+					<v-row>
+						<v-col md="12">
+							<h3 class="title-block main-title">WE HAVE STOCK SALE EACH ITEM ONLU 8$</h3>
+						</v-col>
+					</v-row>
+					<hr>
+					<div class="products">
+						<v-row>
+							<v-col md="12">
+								<h3 class="title-block">MORE THAN 100 GOODS:</h3>
+							</v-col>
+						</v-row>
+						<v-row class="lists">
+							<div class="card">
+								<div class="card-head">
+									<img src="images/293150-P6WX51-650.png" alt="">
+								</div>
+								<h5>Electronics & Appliances</h5>
+							</div>
+							<div class="card">
+								<div class="card-head">
+									<img src="images/12724.png" alt="">
+								</div>
+								<h5>Household Essentials</h5>
+							</div>
+							<div class="card">
+								<div class="card-head">
+									<img src="images/1555.png" alt="">
+								</div>
+								<h5>Body Care & Beauty</h5>
+							</div>
+							<div class="card">
+								<div class="card-head">
+									<img src="images/4107.png" alt="">
+								</div>
+								<h5>Cloth & Accessaries</h5>
+							</div>
+						</v-row>
+						<v-row>
+							<v-col md="12">
+								<h3 class="title-block">With tatarex you can easily</h3>
+							</v-col>
+						</v-row>
+						<v-row class="lists">
+							<div class="desc">
+								<img src="images/Компонент67–1.png" alt="">
+								<h5>Save your time</h5>
+								<hr>
+								<p>No need to search for different suppliers & waiting for separate shipments. We will deliver all together.</p>
+							</div>
+							<div class="desc">
+								<img src="images/Компонент66–1.png" alt="">
+								<h5>Ready shop in one cart</h5>
+								<hr>
+								<p>You don’t have to make
+									a procurement plan.
+									We already did it for
+									you and accumulate the
+								goods.</p>
+							</div>
+							<div class="desc">
+								<img src="images/Компонент63–1.png" alt="">
+								<h5>Save your money</h5>
+								<hr>
+								<p>Each item only 10$ +
+									Toyota Land Cruiser V6
+								2019 for Free!</p>
+							</div>
+							<div class="desc">
+								<img src="images/Компонент62–1.png" alt="">
+								<h5>Make profit</h5>
+								<hr>
+								<p>Start selling and
+									Increase your capital in
+								few months!</p>
+							</div>
+						</v-row>
+						<v-row class="Banner_Land_cruiser">
+							<img src="images/Banner_Land_cruiser@2x.png" alt="">
+						</v-row>
+						<v-row>
+							<v-col md="12">
+								<h3 class="title-block">Take it all and get Toyota Land Cruiser V6 2019</h3>
+							</v-col>
+						</v-row>
+						<v-row>
+							<v-col>
+								<v-btn color="#840000" elevation="2" class="red-btn">DOWNLOAD CATALOGUE</v-btn>
+							</v-col>
+						</v-row>
+						<v-row>
+							<v-col>
+								<p class="text-center offer">600 000 items. Each item only 10$. Buy full stock and get Toyota Land Cruiser V6 2019 for Free.
+								Thanks to a passionate team and a sophisticated logistics system, we deliver anywhere in the world.</p>
+							</v-col>
+						</v-row>
+						<v-row>
+							<v-col>
+								<h3 class="title-block">Get this offer today:</h3>
+							</v-col>
+						</v-row>
+						<v-row>
+							<v-col>
+								<form>
+									<input type="text" placeholder="Your name">
+									<input type="text" placeholder="Contact email">
+									<input type="text" placeholder="Contact number">
+									<textarea name="" id="" cols="5" placeholder="YOUR REQUEST" rows="10"></textarea>
+									<v-btn color="#840000" elevation="2" class="red-btn">SUBMIT REQUIREMENT</v-btn>
+								</form>
+							</v-col>
+						</v-row>
+					</div>
+				</v-container>
+			</v-main>
+			<v-footer>
+				<v-container>
+					<v-row>
+						<v-col md="2" sm="3" cols="6" class="menu-ft">
+							<ul>
+								<h6>GET TO KNOW US</h6>
+								<li><a href="#">Our Partners</a></li>
+								<li><a href="#">Our brands</a></li>
+								<li><a href="#">Tatarex Marketplace</a></li>
+								<li><a href="#">Agreement</a></li>
+							</ul>
+						</v-col>
+						<v-col md="2" sm="3" cols="6" class="menu-ft">
+							<ul>
+								<h6>MAKE MONEY WITH US</h6>
+								<li><a href="#">Advertise your products</a></li>
+								<li><a href="#">Sell on TATAREX</a></li>
+								<li><a href="#">Trade assurance</a></li>
+								<li><a href="#">Create account</a></li>
+								<li><a href="#">Digital office</a></li>
+							</ul>
+						</v-col>
+						<v-col md="2"  sm="3" class="menu-ft">
+							<ul>
+								<h6>SHOP WITH TATAREX</h6>
+								<li><a href="#">Your account</a></li>
+								<li><a href="#">Your orders</a></li>
+							</ul>
+						</v-col>
+						<v-col md="2"  sm="3" class="menu-ft">
+							<ul>
+								<h6>LET US HELP YOU</h6>
+								<li><a href="#">FAQ</a></li>
+								<li><a href="#">Terms of use</a></li>
+								<li><a href="#">Privacy policy</a></li>
+								<li><a href="#">Returns replacements</a></li>
+							</ul>
+						</v-col>
+						<v-col md="3" sm="8" cols="12" class="subscribe">
+							<p>Subscribe for newsietter</p>
+							<div class="send">
+								<input type="text" placeholder="Email"> 
+								<button><svg id="Capa_1" enable-background="new 0 0 465.882 465.882" viewBox="0 0 465.882 465.882" fill="#840000" xmlns="http://www.w3.org/2000/svg"><path d="m465.882 0-465.882 262.059 148.887 55.143 229.643-215.29-174.674 235.65.142.053-.174-.053v128.321l83.495-97.41 105.77 39.175z"/></svg></button>
+							</div>
+							<div class="network">
+								<ul>
+									<li class="tube"><a href="#"></a></li>
+									<li class="fb"><a href="#"></a></li>
+									<li class="inst"><a href="#"></a></li>
+									<li class="tw"><a href="#"></a></li>
+									<li class="linke"><a href="#"></a></li>
+								</ul>
+							</div>
+						</v-col>
+						<v-col md="1">
+							<a href="#top" class="top"></a>
+						</v-col>
+					</v-row>
+					<v-row>
+						<v-col class="b-footer">
+							<p>© 2020   TATAR EXPO   All Rights Reserved</p>
+						</v-col>
+					</v-row>
+				</v-container>
+			</v-footer>
+		</v-app>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+	<script>
+		new Vue({
+			el: '#app',
+			vuetify: new Vuetify(),
+			data: () => ({ drawer: false }),
+		})
+	</script>
+</body>
+</html>

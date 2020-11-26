@@ -1,0 +1,95 @@
+@media (min-width: 1025px) {
+	.drawer{
+		display: none;
+	}
+}
+@media (max-width: 1024px) {
+	.mission{
+		display: none!important;
+	}
+	.tatar-expo{
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.right-hd {
+    	padding-top: 25px;
+	}
+	.desc h5 {
+    	font-size: 20px
+	}
+	.desc p {
+    	font-size: 20px;
+	}
+}
+
+@media (max-width: 768px) {
+	.desc h5 {
+    	font-size: 17px
+	}
+	.desc p {
+    	font-size: 17px;
+	}	
+	footer .top{
+		bottom: 0;
+		top: 20px;
+		margin: 0 auto;
+	}
+	.lists .card{
+		height: 226px;
+	}
+	.lists .card-head {
+	    width: 100px;
+	    height: 100px;
+	}
+	.lists .card h5{
+		font-size: 18px;
+	}
+	.products .lists{
+		margin: auto;;
+	}
+	.main-title {
+	    margin: 33px 0 24px 0;
+	}
+	.products .lists {
+    	grid-gap: 20px;
+	}
+	.banner {
+    	padding: unset;
+	}
+}
+@media (max-width: 425px) {
+	.right-hd{
+		display: none;
+	}
+	.products .lists {
+	    grid-template-columns: auto auto;
+	    grid-gap: 10px;
+	}
+	.desc {
+	    margin-bottom: 20px;
+	}
+	.offer {
+    	padding: 0 10px;
+	    margin-bottom: 0!important;
+	}
+	footer .top{
+		display: none;
+	}
+}
+@media (max-width: 375px) {
+	.menu-ft ul h6, .menu-ft li a {
+    	font-size: 13px;
+	}
+	.products .lists {
+    	grid-template-columns: auto;
+	}
+	.lists .card {
+    	height: 176px;
+	}
+}
+@media (max-width: 320px) {
+	.menu-ft{
+		max-width: 100%;
+		flex: 0 0 100%;
+	}
+}
